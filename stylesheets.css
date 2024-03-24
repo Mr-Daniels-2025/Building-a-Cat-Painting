@@ -7,9 +7,9 @@ body {
 }
 
 .cat-head {
-  position: static; /* Setting position to static */
-  top: 100px; /* Setting top to 100px */
-  left: 100px; /* Setting left to 100px */
+  position: relative;
+  top: 100px;
+  left: 100px;
   background: linear-gradient(#5e5e5e 85%, #45454f 100%);
   width: 205px;
   height: 180px;
