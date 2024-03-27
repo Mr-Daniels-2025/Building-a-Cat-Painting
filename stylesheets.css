@@ -38,7 +38,8 @@ body {
     top: -26px;
     left: 163px;
     transform: rotate(45deg); /* Rotate the ear by 45 degrees clockwise */
-
+    border-top-left-radius: 90px; /* Rounded top-left corner */
+    border-top-right-radius: 10px; /* Rounded top-right corner */
     border-left: 35px solid transparent;
     border-right: 35px solid transparent;
     border-bottom: 70px solid #5e5e5e;
