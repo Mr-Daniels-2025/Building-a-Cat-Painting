@@ -49,16 +49,16 @@ body {
 
 .cat-left-inner-ear {
   position: absolute;
-  top: -26px;
-  left: -31px;
+  top: 22px; /* Adjusted top position */
+  left: -20px; /* Adjusted left position */
   z-index: 2; /* Ensure the inner ear displays over the outer ear */
   border-top-left-radius: 90px;
   border-top-right-radius: 10px;
   transform: rotate(-45deg);
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-bottom: 40px solid #3b3b4f; /* Changed color to match the inner part of the ear */
   border-left-color: transparent; /* Left border */
   border-right-color: transparent; /* Right border */
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 40px solid #3b3b4f;
 }
 
