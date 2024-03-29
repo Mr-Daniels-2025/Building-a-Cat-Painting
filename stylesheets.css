@@ -63,8 +63,7 @@ body {
 .cat-right-inner-ear {
   position: absolute;
   top: 22px;
-  right: -20px; /* Adjusted right position */
-  z-index: 2;
+  left: -20px;
   border-left: 20px solid transparent; /* Left border */
   border-right: 20px solid transparent; /* Right border */
   border-bottom: 40px solid #3b3b4f; /* Bottom border */
